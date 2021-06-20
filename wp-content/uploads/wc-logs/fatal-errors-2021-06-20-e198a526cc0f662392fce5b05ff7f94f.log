@@ -1,0 +1,54 @@
+2021-06-20T21:26:33+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php:1157
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1157): fwrite(false, 'file to test wr...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1305): rsssl_letsencrypt_handler->directory_has_writing_permissions(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(38): rsssl_letsencrypt_handler->key_directory()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(59): rsssl_letsencrypt_handler->__construct()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(98): RSSSL_LETSENCRYPT::instance()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(292): RSSSL_LE('')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-settings.php(423): do_action('plugins_loaded')
+#9 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-config.php(92): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-load.php(37): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/admin.php(34): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/options-general.php(10): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php on line 1157
+
+2021-06-20T21:28:24+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php:1157
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1157): fwrite(false, 'file to test wr...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1305): rsssl_letsencrypt_handler->directory_has_writing_permissions(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(38): rsssl_letsencrypt_handler->key_directory()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(59): rsssl_letsencrypt_handler->__construct()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(98): RSSSL_LETSENCRYPT::instance()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(292): RSSSL_LE('')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-settings.php(423): do_action('plugins_loaded')
+#9 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-config.php(92): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-load.php(37): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/admin.php(34): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/options-general.php(10): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php on line 1157
+
+2021-06-20T21:29:49+00:00 CRITICAL Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php:1157
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1157): fwrite(false, 'file to test wr...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(1305): rsssl_letsencrypt_handler->directory_has_writing_permissions(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php(38): rsssl_letsencrypt_handler->key_directory()
+#3 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(59): rsssl_letsencrypt_handler->__construct()
+#4 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/letsencrypt.php(98): RSSSL_LETSENCRYPT::instance()
+#5 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(292): RSSSL_LE('')
+#6 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-settings.php(423): do_action('plugins_loaded')
+#9 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-config.php(92): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-load.php(37): require_once('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/admin.php(34): require_once('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-admin/options-general.php(10): require_once('/Applications/X...')
+#13 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/webshop2021/wp-content/plugins/really-simple-ssl/lets-encrypt/class-letsencrypt-handler.php on line 1157
+
